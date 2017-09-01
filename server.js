@@ -9,9 +9,6 @@ var XLSX = require('xlsx');
 const c = console.log;
 const ct = console.trace;
 
-
-
-const c = console.log;
 var db = new sqlite.Database("main.db");
 
 app.use(bodyParser.json()); // for parsing application/json
